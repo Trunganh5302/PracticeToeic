@@ -1,0 +1,85 @@
+
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+    background-color: #dadada;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+  }
+
+
+  .logo{
+    display: flex;
+  }
+
+  .logoImage{
+    width: 145px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navTittle {
+    margin-right: 20px;
+    opacity: 0.5;
+  }
+
+  .navTittle:hover{
+    transition: 0.3s;
+    opacity: 1;
+  }
+  
+  .active{
+    opacity: 1;
+  }
+
+  .nav-links a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .handle{
+    display: flex;
+  }
+
+  .handleLogin {
+    cursor: pointer;
+    /* font-weight: 300; */
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 0px 25px;
+    border-radius: 100px;
+    border: 1px solid #777777;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+  
+  .handleLogin:hover {
+    background: #f7a10c;
+  }
+  
+  .handleLogin > svg {
+    width: 20px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  .handleLogin:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .handleLogin:active {
+    transform: scale(0.95);
+  }
+  
+  
+  
+  
