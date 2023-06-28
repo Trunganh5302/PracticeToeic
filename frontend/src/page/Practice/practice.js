@@ -41,7 +41,7 @@ function Practice() {
             <button className="practiceLessson_btn">Part 7</button>
           </div>
           <div className="practiceDetail">
-            <button className="practiceLessson_btn">More detail </button>
+            <a href="/practice/listenRead" className="practiceLessson_btnMoreLR">More detail </a>
           </div>
         </div>
         <div className="practiceWS">
@@ -69,7 +69,7 @@ function Practice() {
             <button className="practiceLessson_btnWS">Question 8</button>
           </div>
           <div className="practiceDetail">
-            <button className="practiceLessson_btn">More detail </button>
+            <a className="practiceLessson_btnMore">More detail </a>
           </div>
         </div>
       </div>

@@ -1,0 +1,22 @@
+.wrapperPractices{
+        margin: 0 auto;
+    /* text-align: initial; */
+    width: 80%;
+    margin-top: 100px;
+    min-height: 500px;
+}
+.PartLesson{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.Part{
+        margin: 20px;
+    padding: 3px 33px;
+    border-radius: 20px;
+    /* float: left; */
+    width: 35%;
+    background-color: rgb(83, 116, 188);
+}

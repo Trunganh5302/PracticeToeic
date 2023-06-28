@@ -63,3 +63,17 @@ margin: 111px 142px 0 137px;
     padding: 5px 25px;
     margin: 10px 11px;
 }
+.practiceLessson_btnMore{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin: 10px 11px;
+}
+.practiceLessson_btnMoreLR{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin: 10px 11px;
+}
