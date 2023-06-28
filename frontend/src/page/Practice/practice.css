@@ -1,0 +1,65 @@
+.infor{
+margin: 111px 142px 0 137px;
+}
+
+.titleInfor{
+
+}
+
+.contentInfor{
+    width: 78%;
+}   
+
+
+.wrapperPractice{
+    margin: 20px 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.practiceLR{
+    padding: 30px 60px;
+    border-radius: 20px;
+    border: 1px solid #747474;
+    width: 33%;
+}
+
+.practiceWS{
+    padding: 30px 60px;
+    border-radius: 20px;
+    border: 1px solid #747474;
+    width: 33%;
+}
+
+.practiceInfor{
+    display: flex;
+    align-items: center;
+}
+
+.practiceInfor_tittle{
+    margin-right: 20px;
+}
+
+.praticeInfor_Image{
+    font-size: 90px;
+}
+
+.practiceLessson{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.practiceLessson_btn{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin: 10px 11px;
+}
+
+.practiceLessson_btnWS{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin: 10px 11px;
+}

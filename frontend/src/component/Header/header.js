@@ -9,10 +9,10 @@ function Header() {
         </div>
         <ul className="nav-links">
           <li className="navTittle active">
-            <a href="#">Trang chủ</a>
+            <a href="/">Trang chủ</a>
           </li>
           <li className="navTittle">
-            <a href="#">Ôn luyện</a>
+            <a href="/practice">Ôn luyện</a>
           </li>
           <li className="navTittle">
             <a href="#">Bài thi</a>
