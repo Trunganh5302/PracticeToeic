@@ -1,0 +1,65 @@
+.SideBar{
+    position: fixed;
+    margin-top: 80px;
+    width: 15%;
+}
+
+.SidebarLR{
+
+}
+
+.titleSidebarLR{
+    padding: 5px 25px;
+    margin: 0;
+    background: aquamarine;
+}
+
+.LRlist{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LRlist li {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.LRlist li:hover {
+    background-color: aqua;
+}
+
+.SidebarSW{
+
+}
+
+.titleSidebarWR{
+    padding: 5px 25px;
+    margin: 0;
+    background: aquamarine;
+}
+
+.WRlist{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+
+}
+.WRlist li {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.WRlist li:hover {
+    background-color: aqua;
+}
