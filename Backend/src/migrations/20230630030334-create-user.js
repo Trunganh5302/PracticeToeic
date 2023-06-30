@@ -9,13 +9,28 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      firstName: {
+      idPart: {
+        type: Sequelize.INTEGER
+      },
+      NameTest: {
         type: Sequelize.STRING
       },
-      lastName: {
+      Correct: {
         type: Sequelize.STRING
       },
-      email: {
+      Option1: {
+        type: Sequelize.STRING
+      },
+      Option2: {
+        type: Sequelize.STRING
+      },
+      Option3: {
+        type: Sequelize.STRING
+      },
+      Audios: {
+        type: Sequelize.STRING
+      },
+      Images: {
         type: Sequelize.STRING
       },
       createdAt: {

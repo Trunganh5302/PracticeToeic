@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const connectDB = require('./config/connect')
 const db = require('./models/index')
+const initWebRoutes = require('./Route/web')
 
 
 app.use(cors())
@@ -16,15 +17,7 @@ app.use(bodyParser.json());
 
 connectDB()
 
-app.get('/' , async (req, res) => {
-  try {
-    let data = await db.User.findAll()
-    console.log(data)
-      res.send("Trung Anh")
-  } catch (error) {
-      console.log(error)
-  }
-})
+initWebRoutes(app)
 
 app.listen(8080);
 console.log('Server is listening on port 8080');
