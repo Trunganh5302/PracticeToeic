@@ -1,17 +1,22 @@
 .SideBar{
-    position: fixed;
-    margin-top: 80px;
-    width: 15%;
+    width: 300px;
+    border-right: 1px solid #b3b3b3;
 }
 
 .SidebarLR{
+    padding: 40px 0px;
+}
 
+.NamePage{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.6rem;
 }
 
 .titleSidebarLR{
+    text-align: center;
     padding: 5px 25px;
     margin: 0;
-    background: aquamarine;
 }
 
 .LRlist{
@@ -24,14 +29,20 @@
 }
 
 .LRlist li {
+    background-color: white;
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 80%;
     cursor: pointer;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px 0;
+
 }
 
 .LRlist li:hover {
-    background-color: aqua;
+    background-color: #F8A475;
+    color: white;
 }
 
 .SidebarSW{
@@ -39,9 +50,9 @@
 }
 
 .titleSidebarWR{
+    text-align: center;
     padding: 5px 25px;
     margin: 0;
-    background: aquamarine;
 }
 
 .WRlist{
@@ -54,12 +65,17 @@
 
 }
 .WRlist li {
+    background-color: white;
+    margin: 5px 0px;
+    border-radius: 5px;
+    width: 80%;
     cursor: pointer;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px 0;
 }
 
 .WRlist li:hover {
-    background-color: aqua;
+    background-color: #F8A475;
+    color: white;
 }

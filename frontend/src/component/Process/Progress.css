@@ -1,0 +1,31 @@
+.WrapperProgress{
+  display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-loader {
+}
+
+.iconCancel{
+  cursor: pointer;
+}
+
+.progress-loader {
+  margin-left: 35px;
+  width: 555px;
+  background: rgba(0, 0, 0, 0.253);
+  height: 10px;
+  border-radius: 7px;
+}
+
+.progress {
+  content: "";
+  width: 150px;
+  height: 10px;
+  border-radius: 7px;
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+  animation: loading1274 2s ease infinite;
+}

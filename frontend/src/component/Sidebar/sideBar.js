@@ -7,16 +7,15 @@ function Sidebar() {
     return(
         <>
             <aside className="SideBar">
+                <h2 className="NamePage">Kid.pear.</h2>
                 <div className="SidebarLR">
                     <h4 className="titleSidebarLR">Listening and Reading</h4>
                     <ul className="LRlist">
                         {SideBarData.map((val, key) =>{
                             return (
                                 <li key={key} onClick={() => {window.location.pathname = val.link}}>
-                                    {""}
                                     <div>{val.title}</div>
                                 </li>
-
                             )
                         })}
                     </ul>

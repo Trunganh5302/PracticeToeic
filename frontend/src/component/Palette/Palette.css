@@ -1,0 +1,71 @@
+.WrapperPalette{
+margin: 0 0 0 30px;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3;
+}
+
+.titlePalette{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.itemQuestion{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+  margin: 0;
+    padding: 0;
+}
+
+.checkAns{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnNumQues {
+margin: 10px 15px;
+    --color: #a0a0a0;
+    /* font-family: inherit; */
+    /* display: inline-block; */
+    width: 30px;
+    height: 30px;
+    /* line-height: 2.5em; */
+    overflow: hidden;
+    /* margin: 12px; */
+    /* font-size: 17px; */
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .btnNumQues::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .btnNumQues:hover {
+    color: white;
+  }
+  
+  .btnNumQues:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .btnNumQues:hover::before {
+    top: -30px;
+    left: -30px;
+  }
