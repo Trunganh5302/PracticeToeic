@@ -62,7 +62,7 @@ function Practice() {
           </div>
 
           <div className="practiceDetail">
-            <a  className="practiceLessson_btnMoreLR">More detail </a>
+            <a href="/practice/listenRead"  className="practiceLessson_btnMoreLR">More detail </a>
           </div>
         </div>
         <div className="practiceWS">

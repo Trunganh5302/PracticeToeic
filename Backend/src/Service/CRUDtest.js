@@ -3,8 +3,8 @@ const db = require('../models/index')
 let getAlltest = () => {
     return new Promise(async (resolve,reject) =>{
         try {
-            let data = await db.User.findAll()
-            console.log("Lấy dữ liệu thành công")
+            let data = await db.Test.findAll()
+            console.log("Lấy dữ liệu từ test thành công")
             resolve(data)
         } catch (error) {
             reject(error)

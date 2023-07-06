@@ -6,7 +6,7 @@ import '../Sidebar/sideBar.css'
 function Sidebar() {
     return(
         <>
-            <div className="SideBar">
+            <aside className="SideBar">
                 <div className="SidebarLR">
                     <h4 className="titleSidebarLR">Listening and Reading</h4>
                     <ul className="LRlist">
@@ -36,7 +36,7 @@ function Sidebar() {
                         })}
                     </ul>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

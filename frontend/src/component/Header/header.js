@@ -3,7 +3,7 @@ import "../Header/header.css";
 function Header() {
   return (
     <>
-      <nav className="wrapperHeader">
+      <header className="wrapperHeader">
         <div className="logo">
           <img className="logoImage" src={require('/CODE/Linh tinh/Toeic/frontend/src/public/image/kidpear2.png')} alt="LogoImage"></img>
         </div>
@@ -48,7 +48,7 @@ function Header() {
             </svg>
           </button>
         </div>
-      </nav>
+      </header>
     </>
   );
 }

@@ -1,14 +1,5 @@
 const CRUDtest = require('../Service/CRUDtest')
 
-let getHomePage = async (req, res) => {
-    try {
-        let data = await CRUDtest.getAlltest()
-        res.status(201).json(data)
-    } catch (error) {
-        console.log(error)
-    }
-}
-
 let getPartDetail = async (req, res) => {
     try {
         let datas = await CRUDtest.getAllpart()
@@ -33,7 +24,6 @@ let getQuestionDetail = async (req, res) => {
 }
 
 module.exports = {
-    getHomePage:getHomePage,
     getPartDetail:getPartDetail,
     getQuestionDetail:getQuestionDetail
 }

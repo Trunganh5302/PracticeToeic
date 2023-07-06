@@ -3,6 +3,11 @@ import '../detailPracticeLR/detailPracticeLR.css'
 import Footer from "../../component/Footer/footer"
 
 function PracticeLR() {
+
+    function getPartPratice() {
+        window.location.href = '/practice/part1'
+    }
+
     return(
         <>
             <Header />
@@ -21,7 +26,7 @@ function PracticeLR() {
                 </div>
 
                 <div className="PartLesson">
-                    <div className="Part">
+                    <div onClick={getPartPratice} className="Part">
                         <h2>Part 1</h2>
                         <h4>Mô tả tranh</h4>
                         <p>Thí sinh sẽ nghe 1 lần duy nhất 4 câu mô tả về một bức tranh. Sau đó chọn 1 đáp án mô tả đúng nhất bức tranh đó.</p>

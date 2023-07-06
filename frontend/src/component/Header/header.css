@@ -1,11 +1,11 @@
 
 
-nav {
+header {
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-    background-color: #dadada;
+    background-color: #F29727;
     color: #000000;
     display: flex;
     justify-content: space-around;
