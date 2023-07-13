@@ -1,5 +1,5 @@
 import React from "react";
-import '../LineCheck/Palette.css'
+import '../Palette/Palette.css'
 
 export default function Palette() {
   return (
